@@ -166,30 +166,7 @@ def alpha_visc_irr(T_c, Sigma, nu, r):
 
 ```python
 a2 = alpha_visc_irr(example_Tc, Sigma, nu, r)
-a2
 ```
-
-    C:\Users\jezre\AppData\Local\Temp\ipykernel_16600\2496028586.py:65: RuntimeWarning: overflow encountered in power
-      a2 = r10(r)**(-0.05*Epsilon_irr(Sigma, nu, r))
-    C:\Users\jezre\AppData\Local\Temp\ipykernel_16600\2496028586.py:72: RuntimeWarning: overflow encountered in power
-      a4 = r10(r)**(0.05-0.12*Epsilon_irr(Sigma, nu, r))
-    
-
-
-
-
-    array([0.04      , 0.04      , 0.04000005, 0.04000051, 0.04000301,
-           0.0400128 , 0.04004334, 0.04012423, 0.04031378, 0.04071714,
-           0.04151099, 0.04297366, 0.04551513, 0.04969036, 0.05615723,
-           0.06551906, 0.07802189, 0.09322676, 0.10994645, 0.12661645,
-           0.14186604, 0.15488613, 0.16544947, 0.17372387, 0.1800617 ,
-           0.18485387, 0.18845498, 0.1911569 , 0.19318734, 0.19471868,
-           0.19587925, 0.19676381, 0.1974421 , 0.1979655 , 0.19837193,
-           0.1986895 , 0.19893917, 0.19913662, 0.19929368, 0.1994193 ,
-           0.19952031, 0.19960195, 0.19966827, 0.19972238, 0.19976675,
-           0.19980328, 0.19983348, 0.19985855, 0.19987944, 0.19989692])
-
-
 
 
 ```python
@@ -227,9 +204,3 @@ plot_alpha2(example_Tc,example_al,example_Tc,a2)
     
 ![png](output_6_0.png)
     
-
-
-
-```python
-
-```
